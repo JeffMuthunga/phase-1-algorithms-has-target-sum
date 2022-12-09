@@ -23,14 +23,14 @@ function hasTargetSum(array, target) {
 
 
 /* 
-  Write the Big O time complexity of your function here
+  O(n)
 */
 
 /* 
   Add your pseudocode here
-  map through array and add all other remaining array elements
-  move to next element and iterate from it repeatedly until they
-  add up to target number. 
+  Iterate through array and subtract target from each element
+  iterate through the array again to try and compare whether the resulting number is present 
+  if so return true  
 */
 
 /*
